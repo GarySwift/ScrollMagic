@@ -1,0 +1,94 @@
+// #page-full-width {
+// 	padding-top: 150px;
+// }
+// #parts {
+// 	position: relative;
+// 	width: 420px;
+// 	margin: 0 auto;
+// 	background-color: #C1DCC3;
+// 	padding: 20px;
+// 	// img {
+// 	// 	position: absolute;
+// 	// 	top: 0;
+// 	// 	// display: block;
+// 	// 	border-bottom: 1px solid red;
+// 	// }
+// }
+// #trigger1 {
+// 	position: absolute;
+// 	bottom: 50%;
+// 	left:-100px;
+// 	height: 20px;
+// 	width: 100px;
+// 	background-color: red;
+// }
+
+// #container {
+// 	margin: 51vh 0;
+// 	padding: 50px;
+
+// 	outline: 1px dashed orange;
+// }
+
+// #block {
+// 	padding: 10px;
+
+// 	border: 1px solid black;
+
+// 	font-family: Helvetica;
+// }
+
+.container {
+	position: relative;
+	margin: 100px 0 100px;
+	padding: 50px;
+	outline: 1px dashed orange;
+	text-align: center;
+	span {
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+	// img{
+	// 	border: 1px solid #000;
+	// 	display: inline-block;
+	// 	margin: 0 auto;
+	// }
+}
+
+.block {
+	padding: 10px;
+	border: 1px solid black;
+	font-family: Helvetica;
+}
+
+// *************************************************
+// Pins
+.scene {
+	position: relative;
+	// margin: 200px 0;
+	// padding: 50px;
+	outline: 1px dotted blue;
+	span {
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+}
+#scene2 {
+
+}
+
+.pin {
+	padding: 20px;
+	background: orange;
+	color: white;
+}
+#pin1 {
+	z-index: 1000;
+}
+#pin2 {
+	background-color: #23DC15;
+	// z-index: 1000;
+}
+
