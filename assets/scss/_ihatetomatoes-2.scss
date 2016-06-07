@@ -1,5 +1,5 @@
 body {
-	// background-color: #4A4A4A;
+	background-color: #E2F8D8;
 }
 body {
   font: 16px/1.5 'Open Sans', Helvetica, Helvetica Neue, Arial, sans-serif;
@@ -44,9 +44,6 @@ section {
   height: 100%;
   position: relative;
   text-align: center;
-  // border-top: 1px solid red;
-  // border-bottom: 1px solid blue;
-  // margin: 2%;
 }
  
 /* Center aligned first section */
@@ -117,11 +114,11 @@ section .innerText {
  
 /* A heart instead of a bullet */
 .features li:before {
-  content: "\25FC";//'❤';
-  font-size: 14px;
+  content: '❤';
+  font-size: 11px;
   position: absolute;
   left: 0;
-  top: 1px;//5px;
+  top: 5px;
   display: block;
   color: #ff466a;
 }
